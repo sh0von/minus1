@@ -65,7 +65,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET" && isset($_GET["id"])) {
                     <!-- Add delete button -->
                     <?php if (isset($_SESSION['user_id']) && ($_SESSION['user_id'] == $user_id || strpos($collaborators, $_SESSION['user_id']) !== false)) : ?>
                         <a  class="button is-primary" href='edit-deventry.php?id=<?php echo $file_id; ?>' class='edit-file-button'>Edit File</a>
-                       <br><br> <form method="POST" action="delete_file.php">
+                        <form method="POST" action="delete_file.php">
                             <input type="hidden" name="file_id" value="<?php echo $file_id; ?>">
                             <button type="submit" class="button is-danger" onclick="return confirm('Are you sure you want to delete this file?')">Delete File</button>
                         </form>

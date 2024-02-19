@@ -36,7 +36,7 @@ usort($posts, function ($a, $b) use ($user_skills) {
     return count($matches_b) - count($matches_a);
 });
 ```
-### 6. DevBin (Individual Repository)
+#### 6. DevBin (Individual Repository)
 
 Users can create and manage individual repositories, termed as "DevBins," each supported solely by Markdown (MD) files. These DevBins serve as containers for specific projects or code snippets, providing users with a structured way to organize and showcase their work. Through the DevBin interface, users can:
 
@@ -46,14 +46,14 @@ Users can create and manage individual repositories, termed as "DevBins," each s
   
 This feature empowers users to curate and share their code projects efficiently, fostering collaboration and knowledge sharing within the developer community.
 
-### 7. DevBin Creation/Deletion
+#### 7. DevBin Creation/Deletion
 
 Users have the ability to create new DevBins to organize their projects or code snippets effectively. Additionally, users can delete existing DevBins that are no longer required, allowing for efficient management of their repositories.
 
-### 8. Commit History Tracking
+#### 8. Commit History Tracking
 
 The system automatically tracks the commit history of each DevBin entry, providing users with insights into the changes made over time. This feature enables users to monitor the evolution of their projects and collaborate more effectively with others.
 
-### 9. Dev Entry/Individual MD File Upload
+#### 9. Dev Entry/Individual MD File Upload
 
 Users can upload individual Markdown (MD) files to their DevBins, allowing them to provide detailed documentation, descriptions, or code snippets for each project. This feature enhances the usability of DevBins by enabling users to share their work in a structured and organized manner.

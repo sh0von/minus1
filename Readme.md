@@ -57,3 +57,11 @@ The system automatically tracks the commit history of each DevBin entry, providi
 #### 9. Dev Entry/Individual MD File Upload
 
 Users can upload individual Markdown (MD) files to their DevBins, allowing them to provide detailed documentation, descriptions, or code snippets for each project. This feature enhances the usability of DevBins by enabling users to share their work in a structured and organized manner.
+
+#### 10. Commenting System
+
+Users can engage in discussions and provide feedback on DevBins through a built-in commenting system. This feature fosters collaboration and allows for constructive communication among users, enabling them to share insights, ask questions, and offer suggestions.
+
+#### 11. Add Collaborator to DevBin
+
+Users can invite collaborators to their DevBins, granting them access to contribute to the repository. Collaborators can make edits, add content, and participate in discussions, facilitating teamwork and enabling multiple developers to work together on projects.

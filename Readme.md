@@ -1,3 +1,20 @@
+### Table of Contents
+
+- [Setup](#setup)
+- [Feature Overview](#feature-overview)
+  - [Login/Registration](#1-loginregistration)
+  - [Personal Profile](#2-personal-profile)
+  - [DevBox (GitHub-Like Repository Page)](#3-devbox-github-like-repository-page)
+  - [Search/Filter Options for DevBox](#4-searchfilter-options-for-devbox)
+  - [Skill-Based Sorting of DevBins](#5-skill-based-sorting-of-devbins)
+  - [DevBin (Individual Repository)](#6-devbin-individual-repository)
+  - [DevBin Creation/Deletion](#7-devbin-creationdeletion)
+  - [Commit History Tracking](#8-commit-history-tracking)
+  - [Dev Entry/Individual MD File Upload](#9-dev-entryindividual-md-file-upload)
+  - [Commenting System](#10-commenting-system)
+  - [Add Collaborator to DevBin](#11-add-collaborator-to-devbin)
+ 
+  - 
 ### Setup
 
 1. First, set up XAMPP by starting Apache and MySQL services.
